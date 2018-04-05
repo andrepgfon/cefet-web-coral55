@@ -1,2 +1,106 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+body{
+  width: 800px;
+  margin: 0 auto;
+}
+
+body main{
+  background-image: linear-gradient(#f6f1b2, #4599b2)
+}
+
+main header{
+  margin-left: 154px;
+}
+
+main header h1{
+  font-size: 36px;
+  color: #e90c0c;
+  font-family: ravie;
+  text-align: center;
+}
+
+main header h2{
+  font-size: 24px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: right;
+  font-weight: lighter;
+  color: #333;
+
+}
+
+main header h2 em{
+  color: #d027aa;
+  font-style: normal;
+}
+
+main section{
+  position: relative;
+}
+
+main section article{
+  box-sizing: border-box;
+  margin-left: 154px;
+  border: 1px solid #aac0ae;
+  width: 646px;
+}
+main section article h3{
+  font-size: 18px;
+  font-family: "Verdana", sans-serif;
+  color: #333;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+main section article ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main section article li{
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+  color: #333;
+  padding-top: 14px;
+  list-style-type: none;
+}
+
+main aside{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 154px;
+}
+
+main section aside h2{
+  font-family: "Verdana", sans-serif;
+  font-weight: 1200;
+  font-size: 48px;
+  transform: rotate(-90deg);
+  margin-top: 300px;
+  margin-bottom: 800px;
+  color: #333;
+}
+
+
+aside img[src="images/siri.png"]{
+  float: left;
+  position: absolute;
+  left: -10px;
+  top: 7px;
+}
+
+aside img[src="images/peixe.png"]{
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  left: -44px;
+}
+aside img[src="images/bolhas.png"]{
+  float: left;
+  position: absolute;
+  bottom: 125px;
+  right: 20px;
+}
